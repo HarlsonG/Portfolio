@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects — Harlson Mark Gardose</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/projects.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner container">
+      <a href="index.html#home" class="nav-logo">HMG<span class="accent-dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#experience">Volunteerism</a></li>
+        <li><a href="projects.html" class="nav-cta nav-projects-btn nav-active">Projects</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="sun-icon">☀</span>
+          <span class="moon-icon">☽</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html#about" class="mob-link">About</a></li>
+      <li><a href="index.html#skills" class="mob-link">Skills</a></li>
+      <li><a href="index.html#experience" class="mob-link">Volunteerism</a></li>
+      <li><a href="projects.html" class="mob-link">Projects</a></li>
+      <li><a href="index.html#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="projects-hero">
+    <div class="container">
+      <a href="index.html" class="back-link">← Back to Home</a>
+      <div class="section-chip" style="margin-top:1.5rem;">Featured Work</div>
+      <h1 class="projects-page-title">Work I'm <em>proud of.</em></h1>
+      <p class="projects-page-sub">UI/UX design, game interfaces, and technical projects — all built with intention.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS GRID -->
+  <section class="projects-page-section">
+    <div class="container">
+      <div class="projects-grid">
+
+        <!-- Project 1: AGOS -->
+        <div class="project-card reveal" data-project="agos">
+          <div class="project-img">
+            <img src="AGOS.png" alt="AGOS Project" style="width:100%;height:100%;object-fit:cover;">
+            <div class="project-overlay">
+              <button class="proj-link-btn" onclick="openProject('agos')">View Details →</button>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta-row">
+              <span class="project-type">Capstone · 2025</span>
+              <span class="project-role-tag">Lead UI/UX Designer</span>
+            </div>
+            <h3>AGOS — Overflow Surveillance System</h3>
+            <p>High-fidelity LGU admin dashboards and public monitoring screens. Annotated 5,000+ images to train a YOLOv8 model for waterway blockage detection.</p>
+            <div class="project-tools">
+              <span>Figma</span><span>YOLOv8</span><span>UX Research</span><span>MS Office</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Viu -->
+        <div class="project-card reveal" data-project="viu">
+          <div class="project-img">
+            <img src="VIU.png" alt="Viu Project" style="width:100%;height:100%;object-fit:cover;">
+            <div class="project-overlay">
+              <button class="proj-link-btn" onclick="openProject('viu')">View Details →</button>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta-row">
+              <span class="project-type">Academic · 2025</span>
+              <span class="project-role-tag">Lead Web UI/UX Designer</span>
+            </div>
+            <h3>Viu — Survey & Admin Dashboard</h3>
+            <p>Minimalist multi-stage survey forms engineered to reduce completion fatigue. Data-dense admin dashboards with responsive widgets and telemetry charts.</p>
+            <div class="project-tools">
+              <span>Figma</span><span>Dashboard Design</span><span>UX Strategy</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Encantado -->
+        <div class="project-card reveal" data-project="encantado">
+          <div class="project-img">
+              <img src="Encantado/2.jpg" alt="Encantado Project" style="width:100%;height:100%;object-fit:cover;">
+
+            <div class="project-overlay">
+              <button class="proj-link-btn" onclick="openProject('encantado')">View Details →</button>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta-row">
+              <span class="project-type">GameCon · 2025</span>
+              <span class="project-role-tag">Game UI Designer</span>
+            </div>
+            <h3>Encantado — Sang'gres 2D Fighter</h3>
+            <p>Philippine mythology-inspired 2D fighting game UI. Designed HUD overlays, health/mana bars, character select screens, and in-game navigation menus.</p>
+            <div class="project-tools">
+              <span>Game UI</span><span>Adobe PS</span><span>Asset Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder -->
+        <div class="project-card project-placeholder reveal">
+          <div class="placeholder-inner">
+            <div class="plus-icon">+</div>
+            <p>More projects coming soon</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT MODAL — vertical scrollable layout -->
+  <div class="pmodal-overlay" id="projectModal">
+    <div class="pmodal" id="pmodalInner">
+
+      <!-- Sticky header inside modal -->
+      <div class="pmodal-header">
+        <div class="pmodal-header-meta">
+          <span class="project-type" id="modalType"></span>
+          <span class="project-role-tag" id="modalRole"></span>
+        </div>
+        <button class="pmodal-close" onclick="closeModal()" aria-label="Close">✕</button>
+      </div>
+
+      <!-- Scrollable body -->
+      <div class="pmodal-scroll">
+
+        <!-- 1. MAIN IMAGE -->
+        <div class="pmodal-main-img-wrap" id="modalMainImgWrap">
+          <!-- Filled by JS -->
+        </div>
+
+        <!-- 2. DETAILS -->
+        <div class="pmodal-details">
+          <h2 class="pmodal-title" id="modalTitle"></h2>
+          <p class="pmodal-desc" id="modalDesc"></p>
+
+          <div class="pmodal-info-row">
+            <div class="pmodal-info-block">
+              <div class="pmodal-info-label">Tools Used</div>
+              <div class="project-tools" id="modalTools"></div>
+            </div>
+            <div class="pmodal-links-block" id="modalLinks">
+              <!-- Links injected by JS -->
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. MORE IMAGES (scrollable horizontal strip + lightbox) -->
+        <div class="pmodal-more-images" id="modalMoreImages">
+          <!-- Injected by JS when images exist -->
+        </div>
+
+      </div><!-- end pmodal-scroll -->
+    </div><!-- end pmodal -->
+  </div><!-- end pmodal-overlay -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top-row">
+        <div class="footer-brand">
+          <div class="footer-logo">HMG<span class="accent-dot">.</span></div>
+          <p class="footer-tagline">UI/UX Designer & Visual Storyteller<br>based in Valenzuela City, Metro Manila.</p>
+        </div>
+        <div class="footer-links-col">
+          <div class="footer-col-label">Navigation</div>
+          <a href="index.html#about">About</a>
+          <a href="index.html#skills">Skills</a>
+          <a href="index.html#experience">Volunteerism</a>
+          <a href="projects.html">Projects</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div class="footer-links-col">
+          <div class="footer-col-label">Contact</div>
+          <a href="mailto:harlsongardose4@gmail.com">harlsongardose4@gmail.com</a>
+          <a href="tel:+639464657710">+63 946 465 7710</a>
+          <span class="footer-location">Maysan, Valenzuela City, PH</span>
+        </div>
+      </div>
+      <div class="footer-bottom-row">
+        <span>© 2025 Harlson Mark F. Gardose. All rights reserved.</span>
+        <a href="projects.html" class="footer-scroll-top" aria-label="Back to top">↑ Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>

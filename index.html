@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harlson Mark Gardose — UI/UX & Graphic Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div class="loader-screen" id="loaderScreen">
+    <div class="loader-inner">
+      <div class="loader-logo">HMG<span class="accent-dot">.</span></div>
+      <p class="loader-tagline">UI/UX Designer & Visual Storyteller</p>
+      <div class="loader-dots">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="loader-line"></div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner container">
+      <a href="#home" class="nav-logo">HMG<span class="accent-dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Volunteerism</a></li>
+        <li><a href="projects.html" class="nav-cta nav-projects-btn">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="sun-icon">☀</span>
+          <span class="moon-icon">☽</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#experience" class="mob-link">Volunteerism</a></li>
+      <li><a href="projects.html" class="mob-link">Projects</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO / LANDING -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shape shape1"></div>
+    <div class="hero-bg-shape shape2"></div>
+    <div class="container hero-inner">
+      <div class="hero-left reveal">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-title">
+          Designing
+          <em>Interfaces</em>
+          that <span class="underline-word">Matter.</span>
+        </h1>
+        <p class="hero-sub">
+          I'm <strong>Harlson Mark Gardose</strong> — an IT student, UI/UX designer, and visual storyteller from Valenzuela City, Metro Manila. I turn ideas into intuitive, pixel-perfect experiences.
+        </p>
+        <div class="hero-actions">
+          <a href="#featured-works" class="btn-primary">See My Work</a>
+          <a href="#about" class="btn-outline">About Me</a>
+        </div>
+        <div class="hero-pills">
+          <span>Figma</span><span>Adobe PS</span><span>Canva</span><span>UI/UX</span>
+        </div>
+      </div>
+      <div class="hero-right reveal">
+        <div class="hero-card-main">
+          <div class="hcard-top">
+            <div class="hcard-avatar">HMG</div>
+            <div class="hcard-info">
+              <strong>Harlson Mark</strong>
+              <span>UI/UX Designer</span>
+            </div>
+          </div>
+          <div class="hcard-stats">
+            <div class="hcard-stat"><span class="hs-num">3+</span><span class="hs-lbl">Projects</span></div>
+            <div class="hcard-stat"><span class="hs-num">5K+</span><span class="hs-lbl">Imgs Annotated</span></div>
+            <div class="hcard-stat"><span class="hs-num">6+</span><span class="hs-lbl">Events Hosted</span></div>
+          </div>
+          <div class="hcard-tags">
+            <span class="htag">Dean's Lister ✦</span>
+            <span class="htag">PLV · BS IT</span>
+          </div>
+        </div>
+        <div class="floating-chip chip1">✦ Wireframing</div>
+        <div class="floating-chip chip2">◈ Prototyping</div>
+        <div class="floating-chip chip3">⬡ Documentation</div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-portrait">
+            <img src="Profile.jpg" alt="Harlson Mark Gardose" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;">            <div class="portrait-badge">
+              <span>✦</span> IT Student
+            </div>
+          </div>
+          <div class="about-quote">
+            "Design is not just what it looks like. Design is how it works."
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <div class="section-chip">About Me</div>
+          <h2 class="section-heading">Detail-oriented.<br>Design-focused.<br><em>Always learning.</em></h2>
+          <p>I'm a <strong>BS Information Technology student</strong> at Pamantasan ng Lungsod ng Valenzuela — consistent Dean's Lister since my first year. My work bridges the gap between technical systems and human-centered design.</p>
+          <p>Whether designing LGU flood monitoring dashboards, multi-stage survey UIs, or 2D game interfaces — my process always starts with the user and ends with intentional, clean visuals.</p>
+          <div class="edu-timeline">
+            <div class="edu-item">
+              <div class="edu-dot"></div>
+              <div class="edu-body">
+                <div class="edu-period">2023 – Present</div>
+                <div class="edu-name">Pamantasan ng Lungsod ng Valenzuela</div>
+                <div class="edu-desc">BS Information Technology · Consistent Dean's Lister</div>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-dot"></div>
+              <div class="edu-body">
+                <div class="edu-period">2021 – 2023</div>
+                <div class="edu-name">Our Lady of Fatima University – Valenzuela</div>
+                <div class="edu-desc">ABM Strand · Graduated With High Honor · GWA 95–97</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section section alt-bg" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-chip">Core Skillsets</div>
+        <h2 class="section-heading">What I do best.</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-card primary-card">
+          <div class="skill-icon-wrap"><span>◈</span></div>
+          <h3>UI/UX Design</h3>
+          <p>User research, wireframing, high-fidelity prototyping, component libraries, and style guides built for real users.</p>
+          <div class="skill-tags"><span>Figma</span><span>Wireframing</span><span>Prototyping</span><span>UX Research</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon-wrap"><span>✦</span></div>
+          <h3>Graphic Design</h3>
+          <p>Digital graphics, brand assets, event materials, certificates, and creative visual content across print and digital formats.</p>
+          <div class="skill-tags"><span>Adobe PS</span><span>Adobe AI</span><span>Canva</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon-wrap"><span>⬡</span></div>
+          <h3>Technical Documentation</h3>
+          <p>Software Requirement Specs, infrastructure diagrams, network topology maps, and structured technical reports.</p>
+          <div class="skill-tags"><span>MS Visio</span><span>SRS</span><span>Network Maps</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon-wrap"><span>⊞</span></div>
+          <h3>Game UI Design</h3>
+          <p>HUD systems, character select screens, health/mana bars, and asset consistency across resolutions.</p>
+          <div class="skill-tags"><span>Game UI</span><span>Asset Design</span><span>HUD</span></div>
+        </div>
+      </div>
+      <div class="tools-strip reveal">
+        <div class="tools-label">Tools & Software</div>
+        <div class="tools-list">
+          <span>Figma</span><span>Adobe Photoshop</span><span>Adobe Illustrator</span>
+          <span>Canva</span><span>Microsoft Visio</span><span>MS Office</span><span>YOLOv8</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOLUNTEERISM -->
+  <section class="experience-section section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-chip">Volunteerism</div>
+        <h2 class="section-heading">Giving back & growing.</h2>
+      </div>
+      <div class="exp-grid reveal">
+        <div class="exp-card">
+          <div class="exp-period">2024 – Present</div>
+          <div class="exp-org">Valenzuela Information Technology Society (VITS)</div>
+          <div class="exp-role">Creative Committee Member & Official Department Event Host</div>
+          <ul class="exp-list">
+            <li>Served as MC and primary host for 6+ high-attendance events, including the major ITlympics Culminating Activity.</li>
+            <li>Produced digital graphics, photostrips, community flyers, and formal achievement certificates.</li>
+            <li>Maintained unified visual brand assets across all organizational channels.</li>
+          </ul>
+        </div>
+        <div class="exp-card">
+          <div class="exp-period">2024</div>
+          <div class="exp-org">"Learn to Master Canva" Workshop</div>
+          <div class="exp-role">Committee Member & Student Facilitator</div>
+          <ul class="exp-list">
+            <li>Served as practical layout trainer teaching foundational design principles to workshop attendees.</li>
+            <li>Managed student workspace assets and setup for a seamless learning experience.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Seminars -->
+      <div class="seminars-block reveal">
+        <div class="sem-label">Seminars & Professional Development</div>
+        <div class="sem-tags">
+          <span>Strategic Project Management</span>
+          <span>AI-Powered Learning in the 21st Century</span>
+          <span>Best Practices in Game Testing</span>
+          <span>The Impact of AI on Web Development</span>
+          <span>Cybersecurity & Network Operations</span>
+          <span>Full Stack Web Development</span>
+          <span>That IT Thing is Called Multimedia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED WORKS -->
+  <section class="featured-works-section section alt-bg" id="featured-works">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-chip">Featured Projects</div>
+        <h2 class="section-heading">Work I'm proud of.</h2>
+      </div>
+      <div class="featured-grid reveal">
+        <div class="featured-card">
+<div class="featured-img-wrap">
+    <img src="AGOS.png" alt="AGOS Project" style="width:100%;height:100%;object-fit:cover;">
+</div>
+          </div>
+          <div class="featured-info">
+            <div class="featured-meta">
+              <span class="fmeta-tag">Capstone · 2025</span>
+              <span class="fmeta-role">Lead UI/UX Designer</span>
+            </div>
+            <h3 class="featured-title">AGOS — Overflow Surveillance System</h3>
+            <p class="featured-desc">High-fidelity LGU admin dashboards and public monitoring screens. Annotated 5,000+ images to train a YOLOv8 model for waterway blockage detection.</p>
+            <div class="featured-tags"><span>Figma</span><span>YOLOv8</span><span>UI/UX Design</span><span>Assistant Docu</span></div>
+          </div>
+        </div>
+          </div>
+        </div>
+      <div class="featured-cta reveal">
+        <a href="projects.html" class="btn-outline">View All Projects →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <div class="section-chip">Let's Talk</div>
+          <h2 class="section-heading">Got a project in mind?<br><em>Let's build it.</em></h2>
+          <p>Open to internship opportunities, freelance collaborations, and student project partnerships. I'd love to connect!</p>
+          <div class="contact-items">
+            <a href="mailto:harlsongardose4@gmail.com" class="contact-row">
+              <div class="cr-icon">✉</div>
+              <div class="cr-text">
+                <span class="cr-label">Email</span>
+                <span class="cr-value">harlsongardose4@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+639464657710" class="contact-row">
+              <div class="cr-icon">✆</div>
+              <div class="cr-text">
+                <span class="cr-label">Phone</span>
+                <span class="cr-value">+63 946 465 7710</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/harlsonmarkgardose" target="_blank" rel="noopener" class="contact-row">
+              <div class="cr-icon">in</div>
+              <div class="cr-text">
+                <span class="cr-label">LinkedIn</span>
+                <span class="cr-value">linkedin.com/in/harlsonmarkgardose</span>
+              </div>
+            </a>
+            <div class="contact-row no-link">
+              <div class="cr-icon">⌖</div>
+              <div class="cr-text">
+                <span class="cr-label">Location</span>
+                <span class="cr-value">Maysan, Valenzuela City, Metro Manila</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right reveal">
+          <div class="contact-form-card">
+            <p class="form-note">Prefer a direct message? Send me an email!</p>
+            <a href="mailto:harlsongardose4@gmail.com" class="btn-primary full-width">Say Hello →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (simplified) -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-simple">
+        <div class="footer-logo">HMG<span class="accent-dot">.</span></div>
+        <span class="footer-copy">© 2025 Harlson Mark F. Gardose · Valenzuela City, PH</span>
+        <a href="#home" class="footer-scroll-top" aria-label="Back to top">↑ Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
