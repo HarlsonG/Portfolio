@@ -16,9 +16,6 @@ const projectData = {
     tools: ['Figma', 'YOLOv8', 'UX Research', 'MS Office', 'Wireframing', 'Prototyping'],
     mainImage: 'AGOS.png',
     images: [
-      'AGOS/AGOS.png',
-    ],
-    images: [
       'AGOS/ss1.png',
       'AGOS/ss2.png',
       'AGOS/ss3.png',

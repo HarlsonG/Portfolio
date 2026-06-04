@@ -958,6 +958,49 @@ ul { list-style: none; }
 }
 
 .contact-items { display: flex; flex-direction: column; gap: 1rem; }
+.contact-items-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+/* Social icons below contact rows */
+.contact-socials {
+  margin-top: 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-socials-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.contact-social-icons {
+  display: flex;
+  gap: 0.6rem;
+}
+.social-icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-mid);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--trans), border-color var(--trans), color var(--trans), transform var(--trans);
+}
+.social-icon-btn:hover {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-3px);
+}
 
 .contact-row {
   display: flex;
@@ -1110,6 +1153,7 @@ ul { list-style: none; }
   .exp-grid { grid-template-columns: 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .contact-items-grid { grid-template-columns: 1fr; }
   .footer-top-row { grid-template-columns: 1fr; gap: 2rem; }
   .footer-bottom-row { flex-direction: column; text-align: center; }
   .footer-inner { flex-direction: column; text-align: center; }
