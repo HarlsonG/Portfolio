@@ -2,7 +2,10 @@
 //  HARLSON MARK GARDOSE — Portfolio JS v2
 // ============================================
 
-// ---- Loading Screen ----
+// ---- Footer Year ----
+const footerYear = document.getElementById('footerYear');
+if (footerYear) footerYear.textContent = new Date().getFullYear();
+
 const loaderScreen = document.getElementById('loaderScreen');
 if (loaderScreen) {
   window.addEventListener('load', () => {

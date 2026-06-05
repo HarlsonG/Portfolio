@@ -1,4 +1,15 @@
-// ============================================
+// ---- Dark Mode Sync (projects page) ----
+{
+  const _themeToggle = document.getElementById('themeToggle');
+  if (_themeToggle) {
+    _themeToggle.addEventListener('click', () => {
+      const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  }
+}
+
 //  PROJECTS PAGE — projects.js
 //  Modal: main image → details → more images
 // ============================================
